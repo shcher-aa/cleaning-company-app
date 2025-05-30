@@ -1,0 +1,37 @@
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: #f3f4f6;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar nav a {
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.sidebar nav a:hover {
+  color: #007bff;
+}
+
+.main-content {
+  margin-left: 220px;
+  padding: 20px;
+}

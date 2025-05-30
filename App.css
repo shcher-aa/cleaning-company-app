@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: lightyellow;
+  }
+  
+  th, td {
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+  }
+
+main {
+  margin-left: 200px;
+}

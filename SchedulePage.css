@@ -1,0 +1,22 @@
+.schedule-page-container {
+  margin-left: 250px; /* adjust if your sidebar width is different */
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.schedule-table th {
+  background-color: #f5f5f5;
+}
